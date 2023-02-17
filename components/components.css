@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+/* Main button */
+
+.main-btn {
+    padding: 1rem;
+    background-color: #616161;
+    border-radius: 8px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition-duration: .4s;
+}
+
+.main-btn:hover {
+    background-color: #8EF8D8;
+}
+
+/* Info box */
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 4px;
+    width: 12rem;
+    height: auto;
+
+}
+
+.info-box-text {
+    color: white;
+    margin: 1rem;
+}
+
+/* Nav bar */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+     max-width: 40rem;    /*remove when in use*/
+}
+
+.img-logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+/* .nav-content {
+    display: flex;
+} */
+
+.nav-links {
+    text-decoration: none;
+    color: #8EF8D8;
+    margin-right: 1rem;
+}
+
+.nav-links:hover {
+    color: azure;
+    transition: .3s;
+}
+
+/* Room-view */
