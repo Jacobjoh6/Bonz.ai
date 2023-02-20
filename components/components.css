@@ -66,3 +66,26 @@ body {
 }
 
 /* Room-view */
+
+.big-card {
+    background-color: #8EF8D8;
+    display: flex;
+    flex-direction: row;
+    max-width: 40rem;
+    max-height: 25rem;
+}
+
+.big-card-left {
+    height: fit-content;
+}
+
+.img-3-day {
+    max-width: 20rem;
+    
+}
+
+.big-card-right {}
+
+.big-card-date-text {}
+
+.big-card-date {}
