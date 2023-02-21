@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: .5rem;
+    background-color: #252525;
+}
+
+.header {
+    grid-area: 1 / 1 / 2 / 6
+}
+
+#big-card-first {
+    grid-area: 2 / 2 / 5 / 5;
+    justify-self: center;
+    align-self: center;
+}
+
+#big-card-second {
+    grid-area: 5 / 2 / 8 / 5;
+    justify-self: center;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+#big-card-third {
+    grid-area: 8 / 2 / 11 / 5;
+    justify-self: center;
+    align-self: center;
+    margin-top: 2rem;
+
+}
