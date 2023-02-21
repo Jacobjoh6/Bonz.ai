@@ -42,17 +42,18 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: black;
-     max-width: 40rem;    /*remove when in use*/
+     /* max-width: 40rem;    remove when in use */
+}
+
+.nav-content {
+    margin-right: 1rem;
 }
 
 .img-logo {
+    margin-left: 1rem;
     width: 5rem;
     height: 5rem;
 }
-
-/* .nav-content {
-    display: flex;
-} */
 
 .nav-links {
     text-decoration: none;
@@ -68,24 +69,57 @@ body {
 /* Room-view */
 
 .big-card {
-    background-color: #8EF8D8;
-    display: flex;
-    flex-direction: row;
-    max-width: 40rem;
-    max-height: 25rem;
+    background-color: #e4dede;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    max-width: 53.5rem;
+    max-height: 20rem;
 }
 
 .big-card-left {
-    height: fit-content;
+    grid-area: 1 / 1 / 2 / 3;
 }
 
-.img-3-day {
-    max-width: 20rem;
-    
+.img-08-night {
+    width: 35rem;
+    height: 18.4rem;
 }
 
-.big-card-right {}
+.big-card-right {
+    grid-area: 1 / 3 / 2 / 4;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
 
-.big-card-date-text {}
+.big-card-right-title {
 
-.big-card-date {}
+}
+
+.big-card-right-text {
+
+}
+
+.big-card-date-text {
+
+}
+
+.big-card-date {
+    text-align: center;
+    padding: .5rem;
+    border-radius: 4px;
+    background-color: black;
+    color: azure;
+}
+
+.front-img-container {
+
+}
+
+.front-img {
+    width: 54rem;
+    height: 25.7rem;
+}
