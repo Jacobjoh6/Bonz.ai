@@ -50,7 +50,7 @@ body {
     } 
 }
 
-@media screen and (max-width: 700px) , (max-width: 1000px) {
+@media screen and (max-width: 700px) , (max-width: 1200px) {
      .big-card-right-text, .big-card-date-text {
         display: none;
     } 
