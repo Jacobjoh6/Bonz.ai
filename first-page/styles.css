@@ -1,4 +1,6 @@
 body {
+    height: 100vh;
+    width: 100vw;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(10, 1fr);
@@ -13,13 +15,15 @@ body {
 
 .front-img {
     grid-area: 2 / 2 / 6 / 5;
-
+    margin-top: auto;
+    margin-bottom: 0px;
 }
 
 .front-header {
     color: aliceblue;
     grid-area: 6 / 2 / 7 / 5;
     text-align: center;
+    /* align-self: center; */
     font-size:x-large;
 }
 
@@ -66,6 +70,8 @@ body {
 
 @media screen and (max-width: 700px) {
     #info-box-first, #info-box-second, #info-box-third {
-        flex-direction: column;
+        height: auto;
+        width: auto;
+        font-size: x-small;
     } 
 }

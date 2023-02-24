@@ -77,6 +77,8 @@ body {
     grid-row-gap: 0px;
     max-width: 53.5rem;
     max-height: 20rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .big-card-left {
