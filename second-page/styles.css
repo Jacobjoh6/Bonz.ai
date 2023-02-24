@@ -55,6 +55,12 @@ body {
     } 
 }
 
+@media screen and (max-width: 1350px) {
+    .big-card-right-text, .big-card-date-text {
+        font-size: small;
+   } 
+}
+
 @media screen and (max-width: 700px) , (max-width: 1100px) {
      .big-card-right-text, .big-card-date-text {
         display: none;

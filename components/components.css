@@ -91,6 +91,11 @@ body {
     height: auto;
 }
 
+.big-card-img:hover {
+    opacity: 90%;
+    transition: .5s;
+}
+
 .big-card-right {
     grid-area: 1 / 3 / 2 / 4;
     display: flex;
