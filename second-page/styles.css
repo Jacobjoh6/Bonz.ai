@@ -1,4 +1,7 @@
 body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(10, 1fr);
@@ -46,11 +49,13 @@ body {
 
 @media screen and (max-width: 700px) {
     .big-card-right, .big-card-right-title, .big-card-date {
-        width: 70%;
+
+        font-size: medium;
+        text-align: center;
     } 
 }
 
-@media screen and (max-width: 700px) , (max-width: 1200px) {
+@media screen and (max-width: 700px) , (max-width: 1100px) {
      .big-card-right-text, .big-card-date-text {
         display: none;
     } 
