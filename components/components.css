@@ -66,7 +66,7 @@ body {
 }
 
 .nav-links:hover {
-    color: azure;
+    color: white;
     transition: .3s;
 }
 
